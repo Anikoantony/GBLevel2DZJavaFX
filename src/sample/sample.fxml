@@ -1,0 +1,23 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.text.Text?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="TOP_CENTER" hgap="30" vgap="10">
+  <!--  <Button text="But1" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#clickBtn1" ></Button>
+    <Button text="But2" GridPane.rowIndex="1" GridPane.columnIndex="0" onAction="#Btn2" ></Button> -->
+
+
+    <TextArea fx:id="WindowChat" GridPane.rowIndex="0" GridPane.columnIndex="0" prefWidth="400"></TextArea>
+    <Text text="Введите текст в это поле:" fx:id="txt1" GridPane.rowIndex="1" GridPane.columnIndex="0"></Text>
+    <TextField fx:id="TextField" GridPane.rowIndex="2" GridPane.columnIndex="0" prefWidth="300" />
+    <Button text="Ввод текста" GridPane.rowIndex="3" GridPane.columnIndex="0" onAction="#Add" ></Button>
+
+  <Button text="Очистить чат" GridPane.rowIndex="3" GridPane.columnIndex="1" onAction="#Clear"/>
+
+</GridPane>
