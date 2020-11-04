@@ -19,7 +19,7 @@
     <TextField fx:id="TextField" GridPane.rowIndex="2" GridPane.columnIndex="0" prefWidth="300" />
   <HBox GridPane.rowIndex="3" GridPane.columnIndex="0">
     <Text text="Кнопки: " fx:id="txt2" ></Text>
-    <Button text="Ввод текста" onAction="#Add" />
+    <Button text="Ввод текста в чат" onAction="#Add" />
     <Button text="Очистить чат" onAction="#Clear"/>
   </HBox>
 
