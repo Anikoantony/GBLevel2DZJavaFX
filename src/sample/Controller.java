@@ -18,7 +18,8 @@ public class Controller {
 
    @FXML
    public TextArea WindowChat;
-    @FXML
+
+   @FXML
    public Text txt2;
 
     public void clickBtn1(ActionEvent actionEvent) {
