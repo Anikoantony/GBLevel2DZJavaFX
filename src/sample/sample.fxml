@@ -8,11 +8,16 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.layout.HBox?>
+<?import java.net.URL?>
 <GridPane fx:controller="sample.Controller"
           xmlns:fx="http://javafx.com/fxml" alignment="TOP_CENTER" hgap="30" vgap="10">
   <!--  <Button text="But1" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#clickBtn1" ></Button>
     <Button text="But2" GridPane.rowIndex="1" GridPane.columnIndex="0" onAction="#Btn2" ></Button> -->
 
+  <!-- подключить стили CSS -->
+    <stylesheets>
+       <URL value="@/CSS/Style.css" />
+    </stylesheets>
 
     <TextArea fx:id="WindowChat" GridPane.rowIndex="0" GridPane.columnIndex="0" prefWidth="400"></TextArea>
     <Text text="Введите текст в это поле:" fx:id="txt1" GridPane.rowIndex="1" GridPane.columnIndex="0"></Text>

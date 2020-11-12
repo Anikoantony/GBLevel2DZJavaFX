@@ -22,6 +22,7 @@ public class Controller {
    @FXML
    public Text txt2;
 
+   @FXML
     public void clickBtn1(ActionEvent actionEvent) {
         System.out.println("Привет!");
         actionEvent.getEventType();
@@ -32,13 +33,13 @@ public class Controller {
     /*public void Btn2(ActionEvent actionEvent) {
         TextAr1.appendText("hello! \n");
     }*/
-
+@FXML
     public void Add(ActionEvent actionEvent) {
         WindowChat.appendText(TextField.getText()+"\n");
         TextField.clear();
         TextField.requestFocus();
     }
-
+@FXML
     public void Clear(ActionEvent actionEvent) {
         WindowChat.clear();
     }
